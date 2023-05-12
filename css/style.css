@@ -1,0 +1,51 @@
+*{margin: 0; padding: 0;}
+ul, li{list-style: none;}
+a{color: #222; text-decoration: none;}
+.container{width: 1200px; margin: 0 auto;}
+.position-absolute{position: absolute;}
+.position-relative{position: relative;}
+.d-block{display: block;}
+.d-inline-block{display: inline-block;}
+.d-flex{display: flex;}
+.justify-content-between{justify-content: space-between;}
+.align-items-center{align-items: center;}
+.overflow-hidden{overflow: hidden;}
+.mx-auto{margin: 0 auto;}
+#hd{
+    padding: 3rem 0;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.justify-content-end{
+    justify-content: end;
+}
+.px-5{
+    padding: 0 5rem;
+}
+.text-center{
+    text-align: center;
+
+}
+.justify-content-center{
+    justify-content: center;
+}
+.margin-auto{
+    margin: 0 auto;
+
+}
+/* 그리드 시스템 공통클래스 스타일 가이드 */
+
+
+
+
+
+
+
+/* 폰트 22 대메뉴만 */
+
+#gnb > li > a{font-size: 22px} */
+#gnb > li:nth-child(4) > a{color:red}
+#gnb ul{height: 0; border:1px solid black; transition: 0.5s; overflow: hidden;}
+#gnb:hover ul{display: block;}
+#gnb li:hover ul{height: 100px;}
